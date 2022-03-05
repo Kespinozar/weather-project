@@ -1,0 +1,61 @@
+body {
+  font-family: "Comforter Brush", cursive;
+}
+h1 {
+  color: red;
+}
+
+h2 {
+  text-align: center;
+  padding: 40px;
+}
+img {
+  display: block;
+
+  margin: 0 auto;
+}
+p {
+  text-align: center;
+  border: aqua;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.row {
+  color: rgb(36, 126, 179);
+  text-align: center;
+  margin-top: 50px;
+}
+input {
+  color: rgb(38, 203, 224);
+}
+
+button {
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+form {
+  color: aqua;
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+.card {
+  font-weight: 500;
+}
+
+.current-date {
+  text-align: center;
+}
+
+.weather-app {
+  border: 1px solid #dadde1;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+}
