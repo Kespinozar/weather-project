@@ -20,47 +20,41 @@
 </head>
 
 <body>
-
-
-
     <div class="container">
-        <div class="weather-app">
-            <div class="card-body">
-                <form class="search-form" id="search-form">
-                    <div class="row">
-                        <div class="col-6">
-                            <input type="search" placeholder="Enter the city name" id="city-input" type="submit" />
-                        </div>
 
+<div class="weather-app">
+<div class="card-body">
+<form class="search-form" id="search-form">
+<div class="row">
+<div class="col-6">
+<input type="search" placeholder="Enter the city name" id="city-input" type="submit" />
+</div>
+<div class="col-3">
+<input type="submit" value="Search" class="btn btn-outline-info" />
 
-                        <div class="col-3">
-                            <input type="submit" value="Search" class="btn btn-outline-info" />
+</div>
 
-                        </div>
+</form>
 
+<h1>
+<ul>
+    
+<div id="city"> </div>
 
-                        <div class="col-3">
-                            <button class="btn btn-success">
+<li id="current-date"></li>
 
-                                Current
-                            </button>
-                        </div>
-                </form>
+</ul>
 
+</h1>
+ 
+<div class="col-6"></div>
 
-                <div id="city"> </div>
+<ul>
+<li id="description"> </li>
+     <li>
+    Humidity: <span id="humidity"></span>% </li>
 
-                <div class="col-6"></div>
-
-                <ul>
-
-                    <li id="description"> </li>
-                    <li id="current-date"> </li>
-
-                    <li>
-                        Humidity: <span id="humidity"></span>% </li>
-
-                    <li> Wind: <span id="wind"></span>Km/h</li>
+     <li> Wind: <span id="wind"></span>Km/h</li>
 
                 </ul>
             </div>

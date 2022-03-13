@@ -1,0 +1,66 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 21px;
+}
+
+.weather-app-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.weather-app {
+  padding: 20px;
+  border: 1px solid turquoise;
+  border-radius: 5px;
+}
+
+.overbiew {
+  margin-bottom: 20px;
+}
+h1 {
+  color: turquoise;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+}
+
+.forecast {
+  color: red;
+}
+
+li {
+  list-style: none;
+}
+
+li::first-letter {
+  text-transform: capitalize;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.weather-temperature img {
+  margin-right: 20px;
+  width: 400px auto;
+}
+
+.weather-temperature strong {
+  color: turquoise;
+  font-size: 40px;
+  text-align: center;
+}
+
+.weather-temperature .units {
+  font-size: -30px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.weather-temperature .active {
+  color: black;
+
+  cursor: default;
+}
