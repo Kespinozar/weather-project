@@ -13,7 +13,7 @@ body {
   border-radius: 5px;
 }
 
-.overbiew {
+.overview {
   margin-bottom: 20px;
 }
 h1 {
@@ -68,14 +68,15 @@ a {
 
 .weather-forecast-date {
   font-size: 20px;
-  color: rgb(214, 190, 182);
+  color: rgb(226, 178, 196);
 }
 
-.weather-forecast-temperature.min {
+.weather-forecast-temperature-min {
   opacity: 0.3;
 }
 .weather-forecast-temperatures {
   font-size: 13px;
+  color: black;
 }
 
 .img-temp {
