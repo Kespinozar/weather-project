@@ -16,13 +16,14 @@
 </head>
 
 <body>
+
     <div class="container">
         <div class="weather-app-wrapper">
             <div class="weather-app">
                 <form id="search-form" class="mb-3">
                     <div class="row">
                         <div class="col-9">
-                            <input class="bar" type="search" placeholder="Type a city..." class="form-control" id="city-input"
+                            <input type="search" placeholder="Type a city..." class="form-control" id="city-input"
                                 autocomplete="off" />
 
                         </div>
@@ -30,6 +31,7 @@
                         <div class="col-3">
                             <input type="submit" value="Search" class="btn btn-light w-100" />
 
+                        </div>
                         </div>
                 </form>
                 <div class="overview">
@@ -45,67 +47,50 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-6 ">
+                   
                         <div class="clearfix weather-temperature">
                             <div class="img-temp">
-                            <img src="" alt="Cloudy" id="icon" class="float-left" />
+                            <img src="" alt="Cloudy" id="icon" class="float-right" />
 
-                            <div class="float-left ">
+                            <div class="float-left">
                                 <strong id="temperature"></strong>
                                 <span class="units"> F° </span>
-                                     
                 
+                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-4">
 
                         <ul>
+
+                            <li> Feels like: <span id="looksLike"></span> F° </li>
                             <li>
                                 Humidity: <span id="humidity"> </span> % </li>
 
                             <li>
-                                Wind: <span id="wind"> </span> Km/h
+                                Wind Speed: <span id="wind"> </span> Km/h
 
                             </li>
                         </ul>
+                    </div>
                 </div>
-                </div>
-                </div>
-            <div class="weather-forecast"
-            id="forecast">
-                    <div class="row">
-                        <div class="col-2"> 
-                            <div class="weather-forecast-date">
-                        Sun </div>
-                    <img src="http://openweathermap.org/img/wn/01d@2x.png"  
-                    alt=""
-                    width="42"
-                    />
-                    <div class="weather-forecast-temperatures">
-                    <span class="weather-forecast-temperature-max"> 19° </span>
-                    <span class="weather-forecast-temperature-min"> 12° </span>
-                
         
+            <div class="weather-forecast" id="forecast"> </div>
+                 
             
-                </div>
-                </div>
-                </div>
-                </div>
+            </div>
 
-
-                </div>
-                </div>
-
-                <small>
+                <small> 
                     <a href="https://github.com/Kespinozar/weather-project.git" target="_blank">
                         Open -source code</a>
-                    by Mishell
-
+                   
+by Mishell Espinoza
                 </small>
             
-        
+
    
     <script src="src/java.js"> </script>
 
