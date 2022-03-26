@@ -23,10 +23,6 @@ h1 {
   line-height: 28px;
 }
 
-.forecast {
-  color: red;
-}
-
 li {
   list-style: none;
 }
@@ -41,7 +37,7 @@ ul {
 
 .weather-temperature img {
   margin-right: 20px;
-  width: 400px auto;
+  width: 900px auto;
 }
 
 .weather-temperature strong {
@@ -63,4 +59,29 @@ a {
   color: black;
 
   cursor: default;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 20px;
+  color: rgb(214, 190, 182);
+}
+
+.weather-forecast-temperature.min {
+  opacity: 0.3;
+}
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+
+.img-temp {
+  text-align: center;
+
+  margin-left: 200px;
+
+  font-size: 30px;
 }
