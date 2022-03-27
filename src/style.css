@@ -86,8 +86,9 @@ small {
   text-align: center;
   color: black;
   font-size: small;
-  margin-top: 10px;
-  margin-left: 150px;
+  margin-top: -5px;
+  margin-left: 300px;
+  padding: 5 auto;
 }
 
 .img-temp {
