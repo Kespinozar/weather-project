@@ -20,11 +20,6 @@ body {
   border-radius: 5px;
 }
 
-.overview {
-  margin-bottom: 20px;
-  color: rgb(181, 190, 214);
-}
-
 h1 {
   color: turquoise;
   font-size: 24px;
@@ -34,7 +29,7 @@ h1 {
 
 li {
   list-style: none;
-  color: rgb(181, 190, 214);
+  color: rgb(226, 178, 196);
 }
 
 li::first-letter {
@@ -46,7 +41,7 @@ ul {
 }
 
 .weather-temperature img {
-  margin-right: 20px;
+  margin-right: 40px;
   width: 1000px auto;
 }
 
@@ -67,8 +62,6 @@ a {
 
 .weather-temperature .active:hover {
   color: black;
-
-  cursor: default;
 }
 
 .weather-forecast {
@@ -93,4 +86,18 @@ small {
   text-align: center;
   color: black;
   font-size: small;
+  margin-top: 10px;
+  margin-left: 150px;
+}
+
+.img-temp {
+  width: 200px;
+}
+
+.main-tem-info {
+  color: black;
+}
+.btn {
+  color: turquoise;
+  font-size: 23px;
 }
